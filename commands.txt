@@ -1,0 +1,18 @@
+npm i -y
+npm i bcrypt cors dotenv express jsonwebtoken mongoose multer nodemon (installing the dependencies for back end)
+
+backend localhost Port on 5000
+client localhost Port on 3000
+
+Username - YGSPR-re
+Password - 7083828
+
+mongodb connect
+mongoose.connect('mongodb+srv://YGSPR-re:<password>@cluster0.osxke3u.mongodb.net/?retryWrites=true&w=majority')
+
+starting server
+npm run start
+
+multer is used for uploading images
+bcrypt is used for hashing passwords
+JWT - jsonwebtoken 
